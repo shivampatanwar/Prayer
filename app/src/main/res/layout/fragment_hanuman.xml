@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HanumanFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/hanumanmantra"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView8a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/हनुमानमंत्र"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/astakam"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/textView9a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/hanumanastakam"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/Hanuman"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/textView10a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/hanumanchalisha"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/हनुमान_आरती"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/textView11a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/hanumanaarti"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

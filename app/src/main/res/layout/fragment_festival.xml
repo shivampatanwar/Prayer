@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    tools:context=".FestivalFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="80dp"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/testad_Banner">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/ht"
+            android:textAppearance="@style/textcolor"
+            android:textSize="20sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/jans2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/jan2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/jans2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/jan2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/jans2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/jan2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--जनवरी -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/febs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/feb2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/febs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/feb2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/febs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/feb2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--फरवरी -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/marchs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/march2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/marchs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/march2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/marchs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/march2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--मार्च -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/aprils2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/april2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/aprils2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/april2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/aprils2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/april2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--अप्रैल -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/mays2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/may2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/mays2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/may2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/mays2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/may2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--मई -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    tools:ignore="TooManyViews">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/juns2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp"
+                        tools:ignore="TooManyViews" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/jun2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/juns2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/jun2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/juns2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/jun2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--जून -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/julys2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/july2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/julys2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/july2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/julys2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/july2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--जुलाई  -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/augs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/aug2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/augs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/aug2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/augs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/aug2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--अगस्त -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/septs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/sept2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/septs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/sept2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/septs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/sept2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </HorizontalScrollView>   <!--सितम्बर -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/octs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/oct2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/octs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/oct2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/octs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/oct2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--अक्टूबर -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/novs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/nov2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/novs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/nov2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/novs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/nov2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--नवंबर -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/decs2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/dec2023"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/decs2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/dec2024"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="199dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/color"
+                        android:gravity="center"
+                        android:text="@string/decs2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="80dp"
+                        android:text="@string/dec2025"
+                        android:textAppearance="@style/textcolor"
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>   <!--दिसंबर -->
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KaliFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:textAppearance="@style/textcolor"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/kmant"
+            android:textSize="19sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/kmantra"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:textAppearance="@style/textcolor"
+            android:paddingBottom="4dp"
+            android:text="@string/कचालिश"
+            android:textSize="19sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/kchalisha"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:textAppearance="@style/textcolor"
+            android:paddingBottom="4dp"
+            android:text="@string/माँ_काल"
+            android:textSize="19sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:textAppearance="@style/textcolor"
+            android:text="@string/कलिआर्टी"
+            android:textSize="18sp"
+            tools:ignore="RtlSymmetry" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

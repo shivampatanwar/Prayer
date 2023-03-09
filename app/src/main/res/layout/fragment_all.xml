@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AllFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textviewdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/date"
+            android:textColor="#F8291A"
+            android:textSize="20sp" />
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            ads:adSize="BANNER"
+            android:layout_marginBottom="5dp"
+            ads:adUnitId="@string/testad_Banner">
+        </com.google.android.gms.ads.AdView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/hindu_gods_and_goddess"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="gan"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv1"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ganesh"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/ganeshs"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="han"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv2"
+                        android:layout_width="84dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/hanuman"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/hanum"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="vis"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv3"
+                        android:layout_width="86dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/vishnu"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/vishnus"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="shiv"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv4"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/shiv"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/shiv"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ram"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv6"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ram"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/rams"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="kri"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv7"
+                        android:layout_width="84dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/krishna"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/krishna"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="sar"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv8"
+                        android:layout_width="86dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/saraswati"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/saras"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="lax"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv9"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/laxmi"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/laxm"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dur"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv11"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/durga"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/durg"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="par"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv12"
+                        android:layout_width="84dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/parvati"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/पार्वती"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="kal"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv13"
+                        android:layout_width="86dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/kali"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/काली"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="gay"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv14"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/gayatri"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/गायत्री"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="sha"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv16"
+                        android:layout_width="85dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/shanidev"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/shanid"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rah"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv17"
+                        android:layout_width="84dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/rahudev"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/rah"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ket"
+                    android:orientation="vertical"
+                    tools:ignore="UsingOnClickInXml">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/cv18"
+                        android:layout_width="86dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ketu"
+                        tools:ignore="UsingOnClickInXml,SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/ketud"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textAppearance="@style/textcolor"
+            android:justificationMode="inter_word"
+            android:text="@string/notic"
+            android:textSize="18sp"
+            tools:ignore="UnusedAttribute" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            ads:adSize="BANNER"
+            android:layout_marginBottom="5dp"
+            ads:adUnitId="@string/testad_Banner">
+        </com.google.android.gms.ads.AdView>
+
+
+
+
+
+        <!--        <include layout="@layout/layout_devi"/>-->
+
+
+
+
+<!--        <include layout="@layout/layout_dev"/>-->
+
+<!--        <include layout="@layout/layout_kastdev"/>-->
+
+
+<!--        <include layout="@layout/layout_divas"/>-->
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/email"
+                android:textSize="16sp" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                ads:adSize="MEDIUM_RECTANGLE"
+                ads:adUnitId="@string/testad_Banner">
+
+            </com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/emails"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/email_us"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/website"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/privacy"
+                android:layout_marginStart="10dp"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/privacy_policy"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                tools:ignore="UsingOnClickInXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd"
+                android:layout_marginStart="10dp"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/professional_developer"
+                android:layout_marginTop="3dp"
+                android:textSize="14sp"
+                tools:ignore="UsingOnClickInXml" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/social_media"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fb"
+                android:layout_marginStart="10dp"
+                android:textAppearance="@style/textcolor"
+                android:layout_marginTop="5dp"
+                android:text="@string/facebook"
+                android:textSize="14sp"
+                tools:ignore="UsingOnClickInXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/insta"
+                android:layout_marginStart="10dp"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/instagram"
+                android:layout_marginTop="3dp"
+                android:textSize="14sp"
+                tools:ignore="UsingOnClickInXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/twitter"
+                android:layout_marginStart="10dp"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/twitter"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"
+                tools:ignore="UsingOnClickInXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/yt"
+                android:layout_marginStart="10dp"
+                android:textAppearance="@style/textcolor"
+                android:text="@string/youtube"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="14sp"
+                tools:ignore="UsingOnClickInXml" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

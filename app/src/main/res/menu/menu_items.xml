@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="@string/homes"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/calendar"
+            android:title="@string/calendars"
+            android:icon="@drawable/ic_calendar"/>
+
+        <item
+            android:id="@+id/festival"
+            android:title="@string/festivalss"
+            android:icon="@drawable/ic_today"/>
+
+        <item
+            android:id="@+id/temple"
+            android:title="@string/temple"
+            android:icon="@drawable/ic_temple"/>
+
+        <item
+            android:id="@+id/audio"
+            android:title="@string/audio"
+            android:icon="@drawable/ic_play"/>
+
+        <item
+            android:id="@+id/setting"
+            android:title="@string/setting"
+            android:icon="@drawable/ic_setting"/>
+
+        <item
+            android:id="@+id/support"
+            android:title="@string/support"
+            android:icon="@drawable/ic_support"/>
+
+        <item
+            android:id="@+id/email"
+            android:title="@string/email_us"
+            android:icon="@drawable/ic_email"/>
+
+        <item
+            android:id="@+id/privacyy"
+            android:title="@string/privacy_policy"
+            android:icon="@drawable/ic_policy"/>
+
+
+    </group>
+
+
+</menu>
